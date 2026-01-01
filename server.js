@@ -5,7 +5,7 @@ const app = express();
 
 const PORT = process.env.PORT || 8000
 
-router.get('/', async (req, res) => {
+app.get('/', async (req, res) => {
     return res.json({ message: "It's get request" });
 })
 
